@@ -1,0 +1,23 @@
+{
+  "name": "currency-converter",
+  "version": "1.0.0",
+  "description": "A simple currency converter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nayeem-XTREME/Currency-Converter.git"
+  },
+  "author": "Niaz Morshed Nayeem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nayeem-XTREME/Currency-Converter/issues"
+  },
+  "homepage": "https://github.com/Nayeem-XTREME/Currency-Converter#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}

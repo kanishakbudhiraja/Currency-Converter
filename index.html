@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="theme-color" content="#ffffff">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/7da658bf79.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="resource/style.css">
+    <title>Currency Converter</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="jumbotron">
+            <div class="wrapper">
+                <img src="icon/exchange.svg" alt="Logo">
+                <h1 font-weight-bold><strong>Currency Converter</strong></h1>
+                <p><strong>Choose the currency and the amounts to get the exchange rate</strong></p>
+            </div>
+
+            <div class="box">
+                <div class="row">
+                    <div class="col col-12 col-lg-5 first">
+                        <div class="from">
+                            <label for="from">FROM</label>
+
+                            <input class="currency" type="number" id="from-input" placeholder="Enter currency" value="1">
+
+                            <select class="currency_select" name="from" id="from">
+                                <option value="USD">USD</option>
+                            </select>
+                
+                        </div>
+                    </div>
+
+                    <div class="col col-12 col-lg-2 mb-4 mb-lg-0">
+                        <a href="#" class="swap"><i class="fas fa-exchange-alt"></i></a>
+                    </div>
+
+                    <div class="col col-12 col-lg-5 second">
+                        <div class="to">
+                            <label for="to">TO</label>
+
+                            <input class="currency" type="number" id="to-input" placeholder="ConversionRate" value="" disabled/>
+
+                            <select class="currency_select" name="to" id="to">
+                                <option value="USD">USD</option>
+                            </select> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="conversion_rate">
+                <div class="box conversion_rate-box">
+                    <p id="conversion_rate_p">1 USD = 1.00 USD</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container">
+        <p id="design">Made By Kanishak And Darpan.</p>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="resource/script.js"></script>
+</body>
+</html>
